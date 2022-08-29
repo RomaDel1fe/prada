@@ -1,0 +1,58 @@
+.header{
+   &_tools{
+      background: #C4C4C4;
+      height: 50px;
+      &_link{
+         display: inline-block;
+      }
+      &_bar{
+         display: inline-block;
+      }
+   }
+}
+
+.container{
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+.link{
+   &_sale{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: #000;
+      text-align: center;
+   }
+   &_profile{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+   }
+   &_like{
+      // display: none;
+      &::before{
+         content: " ";
+         display: inline-block;
+         width: 15px;
+         height: 15px;
+         background: url(../../img/icons/like.svg) bottom no-repeat; 
+      }
+   }
+   &_bag{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+      &::before{
+         content: " ";
+         display: inline-block;
+         width: 20px;
+         height: 15px;
+         background: url(../../img/icons/bag.svg) left bottom no-repeat; 
+      }
+   }
+}
