@@ -3,15 +3,15 @@
       margin: 25px 0;
       text-align: center;
       & .btn_opacity{
-         display: inline-block;
          margin: 30px 0 40px;
       }
    }
-   &_title{
+   &_tittle{
       font-family: 'Modern No. 20';
       font-weight: 400;
       font-size: 36px;
       line-height: 39px;
+      color: #000;
       text-transform: uppercase;
       margin-bottom: 25px;
    }
@@ -19,6 +19,7 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 25px;
+      color: #000;
       max-width: 470px;
       margin: 0 auto;
    }
