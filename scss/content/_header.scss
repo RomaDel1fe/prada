@@ -1,0 +1,80 @@
+.header{
+   &_tools{
+      background: #C4C4C4;
+      height: 50px;
+      &_inner{
+         position: relative;
+         text-align: center;
+      }
+      &_link{
+         display: inline-block;
+      }
+      &_bar{
+         display: inline-block;
+         position: absolute;
+         right: 40px;
+         
+      }
+   }
+   &_logo{
+      margin-top: 20px;
+      text-align: center;
+   }
+   &_nav{
+      max-width: 730px;
+      margin: 20px auto;
+   }
+   &_list{
+      display: flex;
+      justify-content: space-between;
+   }
+   &_link{
+      font-family: 'Modern No. 20';
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 19px;
+      color: #000000;
+   }
+}
+
+.container{
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+.link{
+   &_sale{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 50px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: #000;
+      text-align: center;
+   }
+   &_profile{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 50px;
+      color: #000000;
+      margin-right: 15px;
+   }
+   &_like{
+      font-size: 0;
+      display: inline-block;
+      margin-right: 21px;
+   }
+   &_bag{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+      &::before{
+         content: " ";
+         display: inline-block;
+         width: 20px;
+         height: 15px;
+         background: url(../../img/icons/bag.svg) left bottom no-repeat; 
+      }
+   }
+}
