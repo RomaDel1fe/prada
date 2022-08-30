@@ -119,6 +119,16 @@ html {
   content: "\e906";
 }
 
+.btn_opacity {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 19px 55px;
+  border: 1px solid #000000;
+}
+
 .header_tools {
   background: #C4C4C4;
   height: 50px;
@@ -208,4 +218,35 @@ html {
   width: 20px;
   height: 15px;
   background: url(../../img/icons/bag.svg) left bottom no-repeat;
+}
+
+.banner_text {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.banner_text .btn_opacity {
+  display: inline-block;
+  margin: 30px 0 40px;
+}
+
+.banner_title {
+  font-family: 'Modern No. 20';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.banner_description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.content_img {
+  width: 940px;
 }

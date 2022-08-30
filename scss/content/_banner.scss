@@ -1,0 +1,30 @@
+.banner{
+   &_text{
+      margin: 25px 0;
+      text-align: center;
+      & .btn_opacity{
+         display: inline-block;
+         margin: 30px 0 40px;
+      }
+   }
+   &_title{
+      font-family: 'Modern No. 20';
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 39px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+   }
+   &_description{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      max-width: 470px;
+      margin: 0 auto;
+   }
+}
+.content{
+   &_img{
+      width: 940px;
+   }
+}
