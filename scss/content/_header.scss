@@ -32,8 +32,23 @@
       font-family: 'Modern No. 20';
       font-weight: 400;
       font-size: 18px;
-      line-height: 19px;
+      line-height: 20px;
       color: #000000;
+      &:hover{
+         
+      }
+      // &::after{
+      //    content: '';
+      //    display: block;
+      //    width: 100%;
+      //    height: 2px;
+      //    transform: scaleX(0);
+      //    background-color: #000000;
+      //    transition: all 0.8s;
+      // }
+      // :hover::after{
+      //    transform: scaleX(1);
+      // }
    }
 }
 
@@ -74,7 +89,7 @@
          display: inline-block;
          width: 20px;
          height: 15px;
-         background: url(../../img/icons/bag.svg) left bottom no-repeat; 
+         background: url(../img/icons/bag.svg) left bottom no-repeat; 
       }
    }
 }
