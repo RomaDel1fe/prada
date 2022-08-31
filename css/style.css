@@ -193,6 +193,23 @@ body {
           justify-content: space-between;
 }
 
+.header_item::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  background-color: #000000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.header_item:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
 .header_link {
   font-family: 'Modern No. 20';
   font-weight: 400;
@@ -429,6 +446,23 @@ body {
   font-size: 14px;
   line-height: 19px;
   color: #000000;
+}
+
+.footer_link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  background-color: #000000;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.footer_link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .social_tittle {
