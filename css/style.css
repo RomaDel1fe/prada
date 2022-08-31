@@ -99,10 +99,14 @@ body {
 
 .icon-facebook:before {
   content: "\e901";
+  font-size: 20px;
+  color: #000;
 }
 
 .icon-instagram:before {
   content: "\e902";
+  font-size: 20px;
+  color: #000;
 }
 
 .icon-like:before {
@@ -113,14 +117,19 @@ body {
 
 .icon-location:before {
   content: "\e904";
+  margin-right: 3px;
 }
 
 .icon-twitter:before {
   content: "\e905";
+  font-size: 20px;
+  color: #000;
 }
 
 .icon-you_tube:before {
   content: "\e906";
+  font-size: 20px;
+  color: #000;
 }
 
 .btn_opacity {
@@ -268,6 +277,10 @@ body {
   width: 940px;
 }
 
+.mini_banner {
+  margin-bottom: 30px;
+}
+
 .mini_inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,4 +389,76 @@ body {
   color: #000000;
   width: 240px;
   margin-bottom: 35px;
+}
+
+.footer {
+  background: #FFFFFF;
+  padding: 40px 0;
+}
+
+.footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 45px;
+  margin-left: 20px;
+}
+
+.footer_list {
+  margin-right: 125px;
+}
+
+.footer_item {
+  margin-bottom: 12px;
+}
+
+.footer_item:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+.footer_tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.footer_link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.social_tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.social_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social_link {
+  font-size: 0;
+}
+
+.location_link {
+  font-family: 'Open Sans' sans-serif;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  margin-left: 20px;
 }
